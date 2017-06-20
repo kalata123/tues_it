@@ -1,0 +1,41 @@
+#count{
+	width:960px;
+	margin:0px auto;
+}
+#left {
+	width: 700px;
+	float:left;
+}
+
+#right {
+	width:260px;
+	float:left;
+}
+
+@media screen and (max-width:1820px) {
+	#count{
+		width: 100%;
+	}
+	#left {
+		width: 70%;
+	}
+	#right {
+		width:30%;
+	}
+	img{
+		width:100%
+}
+
+@media screen and (max-width:640px) {
+	#left {
+		width: 100%;
+	}
+	#right {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	#count {
+		width:320px;
+}
